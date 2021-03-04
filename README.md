@@ -13,11 +13,11 @@ Specific question examined: **How does ad spending, length of air-time, and payi
 To explore this question, I used data provided by [Snapchat](https://www.snap.com/en-US/political-ads) to find information on impressions, paying organization, spending, and air-time for political ads in 2018. The raw data files are in the repository. After manipulating the raw data (as explained in the Data Analysis section), I ran a simple linear regression between spending and impressions, the two variables that appear most obviously related (Figure 1) and then ran a multivariate regression on all three factors with the dependent variable being impressions (Table 1). Paying organization was insignificant, so I re-ran the regression excluding that as shown in Table 2 to generate an equation predicting impressions. 
 
 
-#### *Figure 1*
+#### *Figure 1: Ad Impressions vs. Spending*
 ![](figure.png)
-#### *Table 1*
+#### *Table 1: Regression with All Factors*
 ![](table1.png)
-#### *Table 2*
+#### *Table 2: Regression with Significant Factors*
 ![](table2.png)
 
 ## Results and Discussion

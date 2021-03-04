@@ -19,10 +19,13 @@ To explore this question, I used data provided by [Snapchat](https://www.snap.co
 #### *Table 2*
 ![](table2.png)
 
+## Results and Discussion
+Figure 1 shows a positive correlation between spending and number of impressions. However, the R-squared value of 0.75 indicates a weak-medium linear correlation so even though spending can help explain the number of impressions, it is not the only factor. Based on this graph, the predicted equation is impressions = 261.3(spending) + 16292. Adding more factors into the picture, Table 1 shows that whether or not the organization is political does not significantly affect impressions as the p-value is greater than 0.05. Excluding this independent variable, the re-run in Table 2 shows both spending and length of duration are signficant (p<0.05) and positively correlate with impressions with a predictor equation of impressions = 259*_spending_ + 3603*_length_ -35076. The F-statistic is also signficant, as reflected in the p-value. 
 
-ADD ANALYSIS OF FIGURES and R VALUES
-## Discussion
-TRENDS OF HOW FACTORS AFFECT ; POSSIBLE CONFOUNDING FACTORS ; FACTORS LEFT OUT 
+These results show that spending and length of duration positively correlate with the number of impressions while whether the organization is political does not signficantly impact impressions. This information can be used to help candidates spread out the burden of advertising to non-affiliated organizations who champion their policies. At the same time, the information is helpful is seeing how to fine-tune dollars spent and days advertised to maximize impressions for certain ads. The information is more helpful for the political candidates and ad-organizations, but Snapchat can use the information to decide how long to run ads and what price to charge. It is important to realize that with an R-squared of 0.75, the correlation is not robustly linear and the predicting equations should be used only as rough models. 
+
+However, this model does not consider all the logistical factors involved in political advertisement impressions. Other factors that may improve impressions include length of ad itself, type of ad (sensational, dramatic, etc.), producer, and content based on what age-group is seeing the ad. There are also confounding factors that affect impressions such as virality. Some political ads and videos can go viral on platforms like Snapchat because of algorithms and a human irrationality factor that is difficult to model. Political organizations would benefit from further studies that involve these factors as well as studies that compare the same factors from Snapchat as those from Instagram and Facebook to best see how to leverage each platform to encourage young voter turnout. 
+
 
 ## Data Analysis:
 To process the data I used the following steps:

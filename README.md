@@ -14,9 +14,26 @@ To explore this question, I used data provided by [Snapchat](https://www.snap.co
 
 #### *Figure 1*
 ![](figure.png)
-#### *Table 2*
-![](table1.png)
 #### *Table 1*
+![](table1.png)
+#### *Table 2*
 ![](table2.png)
 
+
+ADD ANALYSIS OF FIGURES and R VALUES
 ## Discussion
+TRENDS OF HOW FACTORS AFFECT ; POSSIBLE CONFOUNDING FACTORS ; FACTORS LEFT OUT 
+
+## Data Analysis:
+To process the data I used the following steps:
+1. Filter currency to only display USD with GUI-based Filter function
+2. Use "Find and Replace" GUI to remove "z" from all Date-Time columns and replace with a blank space
+3. Use INT(Col, "d") function to convert Date-Time columns into Date only 
+4. Take difference between start date and end date after the dates are converted into date only to dislpay number of days the ad ran for
+5. Use UNIQUE function on OrganizationName column to get list of individual organizations without repetition
+6. From filtered list, manually determine which organizations were directly tied to a political candidate vs which organizations were independent and grassroots 
+7. Use IF function to add "1" to Is Org Political column if the OrganizationName column matched any of the organizations pre-determined as political. Else add "0"
+8. Generate scatterplot of Impressions vs Spending and add line of best fit (linear) with R-squared value
+9. Use Data Analysis ToolPak to generate multivariate regression with Impressions as the y-variable and Length, Spending, and Is Org Political as the x-variables
+10. Find which independent variables had p values that were significant (<0.05) and re-run regression on all variables that were signficant 
+11. Analyze findings 
